@@ -17,11 +17,11 @@ def assign_rooms(array)
   end 
 end
 
-def printer(batch_badge_creator, assign_rooms)
-  array.each do |position|
+def printer(batch_badge_creator(), assign_rooms())
+  batch_badge_creator.each do |position|
     puts position
   end 
-  array_2.each do |num|
+  assign_rooms.each do |num|
     puts num 
   end 
 end 
